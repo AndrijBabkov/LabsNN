@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\LAB1\LAB1.csproj" />
+    <ProjectReference Include="..\LAB2\LAB2.csproj" />
+    <ProjectReference Include="..\LAB3\LAB3.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="McMaster.Extensions.CommandLineUtils" Version="4.1.1" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+	<OutputPath>bin\Debug\</OutputPath>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	  <PackAsTool>true</PackAsTool>
+	  <OutputType>Exe</OutputType>
+	  <Version>1.0.0</Version>
+	  <Authors>NikitaAvdeev</Authors>
+	  <Description>Baget</Description>
+	  <ToolCommandName>Lab4</ToolCommandName>
+	  <PackageId>NAvdeevLab4</PackageId>
+  </PropertyGroup>
+  
+ 
+
+
+</Project>
